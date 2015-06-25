@@ -7,8 +7,8 @@ This repo contains the following:
  - DSL Corpus Collection (DSLCC) version 2.0 (training, dev, test and gold data included)
  - DSL Shared Task submissions from participating teams
  - The script to blind Named Entities (NEs) for the Test Set B in DSL-2015
- - The evaluation script to evaluate your outputs
- - The evaluation script to evaluate all submitted systems
+ - The evaluation script to evaluate your outputs (`evaluate.py`)
+ - The evaluation script to evaluate all submitted systems (`evaluate_submissions.py`)
 
 To Evalute Your Output
 ====
