@@ -76,7 +76,7 @@ Close Submission (Blinded NE)
 ====
 
 Team | Overall Accuracy | Submission File |
------|:----------------|:---------------:| 
+-----|:----------------|:---------------| 
 MAC | 0.9400714286 | submissions/mac/mac-lad-close-none-run3.txt | 
 MAC | 0.9387857143 | submissions/mac/mac-lad-close-none-run1.txt | 
 MAC | 0.9372857143 | submissions/mac/mac-lad-close-none-run2.txt | 
@@ -98,7 +98,7 @@ Open Submission (Normal)
 ====
 
 Team | Overall Accuracy | Submission File |
------|:----------------|:---------------:| 
+-----|:----------------|:---------------| 
 NRC | 0.9565 | submissions/nrc/nrc-catego-open-run2.txt
 NRC | 0.9542857143 | submissions/nrc/nrc-catego-open-run1.txt
 NLEL | 0.9183571429 | submissions/nlel/NLEL_UPV_Autoritas-probfwk-open-run1.txt
@@ -108,7 +108,7 @@ Open Submission (Blinded NE)
 ====
 
 Team | Overall Accuracy | Submission File |
------|:----------------|:---------------:| 
+-----|:----------------|:---------------| 
 NRC | 0.9341428571 | submissions/nrc/nrc-catego-open-none-run1.txt
 NRC | 0.9289285714 | submissions/nrc/nrc-catego-open-none-run2.txt
 NLEL | 0.8956428571 | submissions/nlel/NLEL_UPV_Autoritas-probfwk-open-none-run1.txt
