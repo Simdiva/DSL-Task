@@ -10,14 +10,14 @@ Evaluation
 The evaluation is based on overall accuracy for every language/variety .
 
 The best performing system(s) are decided by the overall accuracy across all languages/varieties for the various types of submission:
- - Close submission trained on only DSLCC v2.0 and tested on normal news text (`test.txt`, aka. Test Set A)
- - Close submission trained on only DSLCC v2.0 and tested on news text with blinded Named Entities (`test-none.txt`, aka. Test Set B)
- - Open submission trained on any resources and tested on normal news text (`test.txt`)
- - Open submission traned on any resources and tested on news text with blinded NEs (`test-none.txt`)
+ - **Close submission** trained on only DSLCC v2.0 and tested on normal news text (`test.txt`, aka. Test Set A)
+ - **Close submission** trained on only DSLCC v2.0 and tested on news text with **blinded Named Entities** (`test-none.txt`, aka. Test Set B)
+ - **Open submission** trained on any resources and tested on normal news text (`test.txt`)
+ - **Open submission** traned on any resources and tested on news text with **blinded NEs** (`test-none.txt`)
   
 The overall accuracy is caluclated as such: 
 
-**overall accuracy** = **sum(TP)** / **#sents** 
+      **overall accuracy** = **sum(TP)** / **#sents** 
 
 TP = True Positive for all languages/varieties 
 #sents = total number of documents in evaluation dataset 
