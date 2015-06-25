@@ -20,6 +20,7 @@ The overall accuracy is caluclated as such:
       overall accuracy = sum(TP) / #sents
 
 where:
+
      TP = True Positive for all languages/varieties 
      #sents = total number of documents in evaluation dataset 
 
