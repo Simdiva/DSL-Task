@@ -44,6 +44,24 @@ OSEVAL | - | - | 3 | 3
 PRHLT | 6 | 6 | - | -
 SUKI | 3 | 2 | - | -
 
+Overall Accuracy
+====
+
+The best accuracy achieved by the systems for the various submission types.
+
+Team | Close (Normal) | Close (No NEs) | Open (Normal)  | Open (No NEs)
+-----|:----------------:|:----------------:|:----------------:|:---------------:
+BOBICEV | 94.14 | 92.22 | - | -
+BRUNIBP | 93.66 | - | - | -
+INRIA | 83.91 | - | - | -
+MAC | 95.54 | 94.01 | - | -
+MMS | 95.24 | 92.78 | - | -
+NLEL | 64.04 | 62.78 | 91.84 | 89.56
+NRC | 95.24 | 98.01 | 95.65 | 93.41
+OSEVAL | - | - | 76.17 | 75.3
+PRHLT | 92.74 | 90.8 | - | -
+SUKI | 94.67 | 93.02 | - | -
+
 Closed Submission (Normal)
 ====
 
