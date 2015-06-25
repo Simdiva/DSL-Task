@@ -21,7 +21,12 @@ $ cd DSL-Task
 $ python3 evaluate.py submissions/mms/mms-tfidf-close-run1.txt data/DSLCC-v2.0/gold/test-gold.txt
 ```
 
-
+To blind Named Entities in the training data
+====
+```
+$ python3 blindNE.py data/DSLCC-v2.0/train-dev/train.txt
+$ python3 blindNE.py data/DSLCC-v2.0/train-dev/train.txt > train-noNE.txt
+```
 
 
 
