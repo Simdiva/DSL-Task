@@ -17,10 +17,11 @@ The best performing system(s) are decided by the overall accuracy across all lan
   
 The overall accuracy is caluclated as such: 
 
-      **overall accuracy** = **sum(TP)** / **#sents** 
+      overall accuracy = sum(TP) / #sents
 
-TP = True Positive for all languages/varieties 
-#sents = total number of documents in evaluation dataset 
+where:
+     TP = True Positive for all languages/varieties 
+     #sents = total number of documents in evaluation dataset 
 
 
 
