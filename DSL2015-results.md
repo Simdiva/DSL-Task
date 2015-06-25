@@ -42,3 +42,30 @@ OSEVAL | - | - | 3 | 3
 PRHLT | 6 | 6 | - | -
 SUKI | 3 | 2 | - | -
 
+Closed Submission (Normal)
+====
+
+Team | Overall Accuracy | Submission File |
+-----|:----------------:|:---------------:| 
+MAC | 0.9553571429 | submissions/mac/mac-lad-close-run3.txt | 
+MAC | 0.9544285714 | submissions/mac/mac-lad-close-run2.txt | 
+MAC | 0.9531428571 | submissions/mac/mac-lad-close-run1.txt | 
+MMS | 0.9524285714 | submissions/mms/mms-tfidf-close-run2.txt | 
+NRC | 0.9524285714 | submissions/nrc/nrc-catego-close-run2.txt | 
+NRC | 0.9482142857 | submissions/nrc/nrc-catego-close-run1.txt | 
+SUKI | 0.9467142857 | submissions/suki/suki-suki-close-run3.txt | 
+SUKI | 0.9435714286 | submissions/suki/suki-suki-close-run2.txt | 
+BOBICEV | 0.9413571429 | submissions/bobicev/Bobicev-PPM5-close-run1.txt | 
+MMS | 0.9409285714 | submissions/mms/mms-tfidf-close-run1.txt | 
+MMS | 0.9407142857 | submissions/mms/mms-tfidf-close-run3.txt | 
+SUKI | 0.9372857143 | submissions/suki/suki-suki-close-run1.txt | 
+BRUNIBP | 0.9366428571 | submissions/brunibp/brunibp-brunibp-close-run2.txt | 
+BRUNIBP | 0.9348571429 | submissions/brunibp/brunibp-brunibp-close-run3.txt | 
+BRUNIBP | 0.9331428571 | submissions/brunibp/brunibp-brunibp-close-run1.txt | 
+PRHLT** | 0.9273571429 | submissions/prhlt/PRHLT_UPV_AUTORITAS-skipGr-close-run3.txt | 
+PRHLT | 0.9267142857 | submissions/prhlt/PRHLT_UPV_AUTORITAS-skipGr-close-run2.txt | 
+PRHLT | 0.9211428571 | submissions/prhlt/PRHLT_UPV_AUTORITAS-skipGr-close-run1.txt | 
+INRIA | 0.8390714286 | submissions/inria/inria-triwords-closed-run1.txt | 
+INRIA | 0.8390714286 | submissions/inria/inria-triwords-closed-run2.txt | 
+INRIA | 0.6439285714 | submissions/inria/inria-triwords-closed-run3.txt | 
+NLEL | 0.6403571429 | submissions/nlel/NLEL_UPV_Autoritas-probfwk-close-run2.txt | 
