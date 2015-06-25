@@ -46,7 +46,7 @@ Closed Submission (Normal)
 ====
 
 Team | Overall Accuracy | Submission File |
------|:----------------:|:---------------:| 
+-----|:----------------:|:---------------| 
 MAC | 0.9553571429 | submissions/mac/mac-lad-close-run3.txt | 
 MAC | 0.9544285714 | submissions/mac/mac-lad-close-run2.txt | 
 MAC | 0.9531428571 | submissions/mac/mac-lad-close-run1.txt | 
