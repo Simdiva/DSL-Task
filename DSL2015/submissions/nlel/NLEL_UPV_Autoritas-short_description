@@ -1,0 +1,20 @@
+Authors (order in the paper):
+
+Raül Fabra rfabra@dsic.upv.es
+Francisco Rangel francisco.rangel@autoritas.es
+Paolo Rosso prosso@dsic.upv.es
+
+Description:
+
+In this work we focus on the use probabilities. The key concept is the probability to belong of each term to each of the different language varieties. The distribution of probabilities for a given document should be closer to the distribution of the corresponding language variety. For each word in the training set, we obtain its tf/idf value. We build a matrix where each line represents a document and each column represents a vocabulary term. The last column of the matrix is the language variety. Knowing this language variety, we calculate for each term the probability to belong to each language variety by dividing the sum of its tf/idf weights when the document belong to the language variety by the sum of all the tf/idf weights for the term. To represent a document we look for the probability of its terms and calculate measures such as average, standard deviation, minimum and maximum probability, and two proportions between the sum of probabilities between the total number of terms in the document and the total number of vocabulary terms in the document, respectively. The total amount of features is 6*number_of_language_varieties.
+
+We have sent two runs:
+
+- The first one predicts the language group with a standard language detector [1] and then apply the described method to the similar languages (e.g. Spanish, Portuguese...). We use BayesNet as machine learning algorithm.
+- The second one calculates the previos probabilities for the whole set of languages. In this case, we do not use external resources. We use Naïve Bayes as machine learning algorithm.
+
+We did not do any kind of preprocessing, obtaining words as they appear in the texts, so the classification method is very fast and suitable to big data environments such as social media. 
+
+
+[1] Shuyo, Nakatani. Language Detection Library for Java. 2010. http://code.google.com/p/language-detection/
+

@@ -1,0 +1,18 @@
+The short description:
+
+The system is based on the one I developed for my master’s thesis (Jauhiainen, “Tekstin kielen automaattinen tunnistaminen”). We call the method token-based backoff as it gives equal value to each token when calculating the score for the whole text and a backoff scheme is used when smaller features are needed. First the system basically divides the mystery text between the language groups using the token-based backoff, after which the text is given to a more language group specific version of the same algorithm. The language models are practically relative frequencies of features found in the training corpus. The list of used features (in order of backoff) are:
+
+1. space delimited tokens of any characters
+2. tokens of alphabetical characters including capital letters (delimited by anything else)
+3. tokens of lowercased alphabetical characters (delimited by anything else)
+4. any character n-gram from 8 to 1, calculated inside tokens (beginning and end specially included)
+
+No information spanning token boundaries were used this time. Each token in the mystery text is calculated a score for each language and the whole texts gets the average of the scores of the tokens. A special scheme for detecting xx:s was used.
+
+run1 tries not to map any known languages to xx
+run2 tries to compromise between known languages and xx
+run3 includes a special penalty if features are unknown to a language (for bs, hr, sr, es-ES and es-AR only).
+
+None-submissions use identical code except that the named entity tags are completely ignored.
+
+Authors: Tommi Jauhiainen, Heidi Jauhiainen, Krister Lindén

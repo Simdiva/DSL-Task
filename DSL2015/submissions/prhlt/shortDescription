@@ -1,0 +1,16 @@
+Authors (order in the paper):
+
+Marc Franco-Salvador mfranco@prhlt.upv.es
+Francisco Rangel francisco.rangel@autoritas.es
+Paolo Rosso prosso@dsic.upv.es
+
+Description:
+
+In this work we focus on the use of distributed representations of words using the continuous Skip-gram model [1]. We use this model to generate distributed representations of the training set words, i.e., 300-dimensional vectors, and for each sentence, we calculate the average vector of all its words, obtaining a single vector representing its content. We ignore those words pertaining to the test set which are not present in the training set. We ignore also the vector of the token #ne# (present in test set B). We created an independent classifier for each language variety group, e.g. es-ES and es-AR pertain to the same group. To determine the group of the test instances, we generated a bag-of-words prototype for each group and for each instance determined which one is closer. We tested a Logistic classifier (run1) and Support Vector Machines with radial basis function kernel (run2). Note also that we used negative sampling with 20 negative words to train the distributed vectors. We preprocessed the data with tokenization, word lowercase and removing punctuation. The system is an adapted version of our previous work [2] which obtained good results for Spanish language variety identification.
+
+[1] Mikolov, T., Sutskever, I., Chen, K., Corrado, G. S., & Dean, J. (2013). Distributed representations of words and phrases and their compositionality. In Advances in neural information processing systems (pp. 3111-3119).
+
+[2]  M. Franco-Salvador, F. Rangel, P. Rosso, M. Taulé, and A. Martí. Language Variety Identification using Distributed Representations of Words and Documents. In: 6th International Conference of CLEF on Experimental IR meets Multilinguality, Multimodality, and Interaction (CLEF 2015), Springer-Verlag, LNCS(9283), pp. n/a. (In press)
+
+
+

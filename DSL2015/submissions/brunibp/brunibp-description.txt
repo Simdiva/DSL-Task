@@ -1,0 +1,10 @@
+The BRUniBP system is a two-level classifier, first separating the groups of languages using the tfidf weighting scheme.
+
+The second level combines several character and word-level methods and uses a maximum entropy classifier on their output.
+* Character level methods includes raw n-gram models and a variant of Katz's backoff smoothing.
+* Individual character n-grams up to trigrams
+* Word bigrams
+* Word bigrams of the 200 most frequent words in each language (mostly stopwords)
+* Tfidf weights
+
+Authors: Judit Ács, László Grad-Gyenge, Thiago Bruno
