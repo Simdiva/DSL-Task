@@ -29,6 +29,8 @@ where:
 Rankings
 ====
 
+The participating systems are ranked according to their best performing runs for the various submission types.
+
 Team | Close (Normal) | Close (No NEs) | Open (Normal)  | Open (No NEs)
 -----|:----------------:|:----------------:|:----------------:|:---------------:
 BOICEV | 4 | 5 | - | -
@@ -69,3 +71,45 @@ INRIA | 0.8390714286 | submissions/inria/inria-triwords-closed-run1.txt |
 INRIA | 0.8390714286 | submissions/inria/inria-triwords-closed-run2.txt | 
 INRIA | 0.6439285714 | submissions/inria/inria-triwords-closed-run3.txt | 
 NLEL | 0.6403571429 | submissions/nlel/NLEL_UPV_Autoritas-probfwk-close-run2.txt | 
+
+Close Submission (Blinded NE)
+====
+
+Team | Overall Accuracy | Submission File |
+-----|:----------------:|:---------------:| 
+MAC | 0.9400714286 | submissions/mac/mac-lad-close-none-run3.txt | 
+MAC | 0.9387857143 | submissions/mac/mac-lad-close-none-run1.txt | 
+MAC | 0.9372857143 | submissions/mac/mac-lad-close-none-run2.txt | 
+SUKI | 0.9302142857 | submissions/suki/suki-suki-close-none-run3.txt | 
+NRC | 0.9300714286 | submissions/nrc/nrc-catego-close-none-run1.txt | 
+MMS | 0.9277857143 | submissions/mms/mms-tfidf-close-none-run1.txt | 
+MMS | 0.9277857143 | submissions/mms/mms-tfidf-close-none-run2.txt | 
+SUKI | 0.9272142857 | submissions/suki/suki-suki-close-none-run2.txt | 
+MMS | 0.9247142857 | submissions/mms/mms-tfidf-close-none-run3.txt | 
+NRC | 0.923 | submissions/nrc/nrc-catego-close-none-run2.txt | 
+BOBICEV | 0.9222142857 | submissions/bobicev/Bobicev-PPM5-close-none-run1.txt | 
+PRHLT | 0.908 | submissions/prhlt/PRHLT_UPV_AUTORITAS-skipGr-close-none-run2.txt | 
+PRHLT | 0.9047857143 | submissions/prhlt/PRHLT_UPV_AUTORITAS-skipGr-close-none-run1.txt | 
+PRHLT** | 0.885 | submissions/prhlt/PRHLT_UPV_AUTORITAS-skipGr-close-none-run3.txt | 
+NLEL | 0.6277857143 | submissions/nlel/NLEL_UPV_Autoritas-probfwk-close-none-run2.txt | 
+SUKI | 0.07107142857 | submissions/suki/suki-suki-close-none-run1.txt | 
+
+Open Submission (Normal)
+====
+
+Team | Overall Accuracy | Submission File |
+-----|:----------------:|:---------------:| 
+NRC | 0.9565 | submissions/nrc/nrc-catego-open-run2.txt
+NRC | 0.9542857143 | submissions/nrc/nrc-catego-open-run1.txt
+NLEL | 0.9183571429 | submissions/nlel/NLEL_UPV_Autoritas-probfwk-open-run1.txt
+OSEVAL | 0.7617142857 | submissions/oseval/langmodel-oseval-open-run1.txt
+
+Open Submission (Blinded NE)
+====
+
+Team | Overall Accuracy | Submission File |
+-----|:----------------:|:---------------:| 
+NRC | 0.9341428571 | submissions/nrc/nrc-catego-open-none-run1.txt
+NRC | 0.9289285714 | submissions/nrc/nrc-catego-open-none-run2.txt
+NLEL | 0.8956428571 | submissions/nlel/NLEL_UPV_Autoritas-probfwk-open-none-run1.txt
+OSEVAL | 0.753 | submissions/oseval/langmodel-oseval-open-none-run1.txt
