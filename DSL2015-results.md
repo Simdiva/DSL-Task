@@ -1,7 +1,7 @@
 Results of DSL Shared Task 2015
 ====
 
-We are happy to report that 23 teams registered for the shared task and 10 teams submitted systems.
+We are happy to report that 23 teams registered for the shared task and 10 teams submitted systems to the [DSL Shared Task 2015](http://ttg.uni-saarland.de/lt4vardial2015/dsl.html)
 
 
 Evaluation
