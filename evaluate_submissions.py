@@ -134,7 +134,7 @@ print "Close Blinded NE by group\n========="
 for team in close_none_submissions:
     for s in close_none_submissions[team]:
         results = [i.strip().split('\t')[-1] for i in io.open(s, 'r')]
-        goldtags = [i.strip().split('\t')[-1] for i in io.open(gold_file, 'r')]
+        goldtags = [i.strip().split('\t')[-1] for i in io.open(gold_none_file, 'r')]
         results = breakdown_evaluation(results, goldtags, version=2.0, human_readable=False)
         for line in results:
             print s + '\t' + str(line)
