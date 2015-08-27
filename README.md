@@ -32,5 +32,5 @@ $ python3 blindNE.py data/DSLCC-v2.0/train-dev/train.txt > train-noNE.txt
 Previous Workshops
 ====
  
- - [VarDial 2014](http://corporavm.uni-koeln.de/vardial/sharedtask.html) - First DSL Shared Task is held @ COLING 2014 (https://bitbucket.org/alvations/dslsharedtask2014)
+ - [VarDial 2014](http://corporavm.uni-koeln.de/vardial/sharedtask.html) - First DSL Shared Task was held @ COLING 2014 (https://bitbucket.org/alvations/dslsharedtask2014)
  - [LT4VarDial 2015](http://ttg.uni-saarland.de/lt4vardial2015/index.html) - 2nd Edition DSL Shared Task is going to be held @ RANLP 2015 (https://github.com/Simdiva/DSL-Task)
