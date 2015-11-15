@@ -1,7 +1,9 @@
 DSL Task Repository
 ====
 
-This is the official repository for the Disciminating between Similar Language (DSL) Shared Task 2015. The results of the DSL-2015 Shared Task can be found on https://goo.gl/dCaxAV 
+This is the official repository for the Disciminating between Similar Language (DSL) Shared Task 2015. Discriminating between similar languages and language varieties is one of the bottlenecks of language identification systems.
+
+The results of the DSL-2015 Shared Task can be found on https://goo.gl/dCaxAV 
 
 This repo contains the following:
  - DSL Corpus Collection (DSLCC) version 2.0 (training, dev, test and gold data included)
